@@ -65,4 +65,13 @@ nav h2:hover {
   inset: 2px;
   background: rgba(26, 26, 26, 0.798);
   border-radius: 20px;
+}
+
+.blobdiv .blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+.blobdiv .blob:nth-child(2) {
+  filter: blur(50px);
 }/*# sourceMappingURL=style.css.map */
